@@ -1,0 +1,10 @@
+a = 4
+b = 17
+z = a + b
+z = a - b
+z = a * b
+z = a / b
+z = a ** b
+z = a % b
+z = a // b
+z = a ^ b
