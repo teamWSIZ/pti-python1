@@ -21,6 +21,9 @@ class TestSum(unittest.TestCase):
     def test_4(self):
         self.assertEqual(largest_row([[3], [2], [0]]), [3], '')
 
+    def test_5x(self):
+        self.assertEqual(largest_row([[0, 1, 2], [1, 1, 2], [0, 1, 3]]), [0, 1, 3], '')
+
 
 if __name__ == '__main__':
     unittest.main()

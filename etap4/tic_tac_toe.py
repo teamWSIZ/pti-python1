@@ -33,3 +33,8 @@ class TestSum(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+[
+    ['.', 'o', '.'],
+    ['.', 'o', '.'],
+    ['x', 'o', 'x']]

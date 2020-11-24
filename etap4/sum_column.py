@@ -3,8 +3,13 @@ import unittest
 
 def sum_column(tab):
     """Policzyć sumy każdej z kolumn (zwrócić listę)"""
+    ncolumns = len(tab[0])
+    result = [0] * ncolumns  # zrobi [0,0,0...] (tyle zer ile kolumn)
 
-    return []
+    for row in tab:
+        for i in range(ncolumns):
+            result[i] += row[i]
+    return result
 
 
 class TestSum(unittest.TestCase):
